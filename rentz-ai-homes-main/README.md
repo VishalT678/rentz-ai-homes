@@ -1,73 +1,44 @@
-# Welcome to your Lovable project
+# Rentz AI Homes 🏡🤖
 
-## Project info
+A modern AI-powered property rental platform that helps users find and manage rental homes with ease. Built for scalability, speed, and user experience.
 
-**URL**: https://lovable.dev/projects/e0798ab6-0e58-4fe5-a1b8-abeb5feb4666
+## 🚀 Features
 
-## How can I edit this code?
+- 🔍 AI-powered home search and recommendations
+- 🏘️ Property listing management
+- 👤 User authentication (login/signup)
+- 📊 Dashboard for tenants and owners
+- 💬 Smart chatbot for rental assistance
 
-There are several ways of editing your application.
+## 🧰 Tech Stack
 
-**Use Lovable**
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT-based
+- **AI Features**: OpenAI integration (optional)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e0798ab6-0e58-4fe5-a1b8-abeb5feb4666) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js >= 14
+- MongoDB (local or cloud)
+- (Optional) OpenAI API key for chatbot
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Steps
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/rentz-ai-homes.git
+cd rentz-ai-homes
 
-Follow these steps:
+# Install dependencies
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Create a `.env` file
+cp .env.example .env
+# Fill in MongoDB URI, JWT secret, and optionally OpenAI key
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e0798ab6-0e58-4fe5-a1b8-abeb5feb4666) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
